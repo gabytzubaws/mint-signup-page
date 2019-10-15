@@ -43,7 +43,7 @@ header{
   display: flex;
   flex-direction: row;
   margin-right: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 35px;
   text-align: center;
   font-size: 13px;
   margin-top: 10px;
@@ -55,6 +55,11 @@ header{
   border: none;
   border-radius: 3px;
   padding: 8px 21px 8px 21px;
+}
+.main-logos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .form-container{
   background-color: white;
