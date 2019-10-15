@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body{
+  background-color: #f1f1f1;
+}
+form > h2, form > a, form > p{
+  text-align: center;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  color: lightskyblue;
+}
+h2{
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+}
+form > p{
+  margin-top: 8px;
+  font-size: 14px;
+}
+form > a{
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.hdr-left{
+  display: flex;
+  flex-direction: column;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+header{
+  margin-left: 70%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.sign-in{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 21px 8px 21px;
+}
+.form-container{
+  background-color: white;
+  margin: 0px 33% 0px 33%;
+}
+form{
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+
+}
+input{
+  width: 85%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 6px 3px 6px 7px;
+  margin: 15px auto 15px auto;
+  text-align: left;
+}
+.create-acc{
+  width: 88%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto 30px auto;
+  color: white;
+  background-color: blue;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.form-footer{
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 12px;
+
+}
+.form-footer > p{
+  margin-bottom: 3px;
+}
+.form-footer > p:last-child{
+  margin-bottom: 15px;
+}
+.second-footer{
+  text-align: center;
+  font-size: 10px;
+  padding: 21px 0px 21px 0px;
+  background-color: #f1f1f1;
+  color:lightgrey;
+
+}
+
+.label-name{
+  margin-left: 6%;
+  margin-top: 25px;
+  font-size: 14px;
+
+}
+footer{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 25px;
+}
+#below-pass{
+  font-size: 10px;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: -10px;
+}
